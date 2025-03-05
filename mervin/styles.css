@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2a9d8f, #264653);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: #264653;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #e9c46a;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.qr-code {
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button {
+    background: #e76f51;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 10px;
+    background: #264653;
+    color: #e9c46a;
+    font-size: 0.9em;
+}
+
+video {
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

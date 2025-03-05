@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merjo - Device Casting</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Merjo</h1>
+        <p>Seamlessly share your screen with other devices.</p>
+    </header>
+    <main>
+        <div id="qrcode" class="qr-code"></div>
+        <button id="generateQR">Generate QR Code</button>
+        <p id="connectionStatus">Status: Waiting for connection...</p>
+        <div class="mirror-section">
+            <button id="startMirroring">Start Screen Mirroring</button>
+            <video id="remoteScreen" autoplay></video>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Merjo - Built for seamless sharing.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
